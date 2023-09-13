@@ -13,7 +13,6 @@ header {
   
 nav {
     background: lightblue;
-    padding: 2rem;
     grid-column: 1 / 4;
     grid-row: 2;
   }
