@@ -8,22 +8,26 @@ header {
     background: lightpink;
     padding: 2rem;
     grid-column: 1 / 4;
+    grid-row: 1;
   }
   
 nav {
     background: lightblue;
     padding: 2rem;
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
+    grid-row: 2;
   }
   
 main {
     background: coral;
     grid-column: 2 / 3;
+    grid-row: 3;
   }
   
 .right-sidebar {
     background: yellow;
     grid-column: 3 / 4;
+    grid-row: 3;
   }
   
 footer {
@@ -31,6 +35,7 @@ footer {
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 4;
+    grid-row: 4;
   }
   
 .right-sidebar {
