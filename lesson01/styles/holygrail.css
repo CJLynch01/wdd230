@@ -12,7 +12,7 @@ header {
   
 nav {
     background: lightblue;
-    grid-column: 1 / 2;
+    grid-column: 1 / 4;
   }
   
 main {
