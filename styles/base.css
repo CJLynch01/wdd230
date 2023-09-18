@@ -6,6 +6,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.navi {
+    padding-top: 10px;
+    border-radius: 50px;
+
+    text-align: center;
 }
 
 a:link, a:visited {
