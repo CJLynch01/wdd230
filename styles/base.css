@@ -16,13 +16,7 @@
     text-align: center;
 }
 
-a:link, a:visited {
-    color:white
-}
 
-a:hover, a:active {
-    background-color: red;
-}
 
 #me {
     max-width: 10%;
@@ -36,6 +30,7 @@ nav {
 
 ul {
     list-style-type: none;
+    color: black;
 }
 
 main {
