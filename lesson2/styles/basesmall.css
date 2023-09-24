@@ -1,0 +1,46 @@
+@media screen and (max-width: 500px) {
+
+header {
+    background-color: rgb(71, 71, 163);
+    color:white;
+    text-align: center;
+}
+
+main {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.middle{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.bottom{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+h2{
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(71, 71, 163);
+    color:white;
+    text-align: center;
+}
+
+}
