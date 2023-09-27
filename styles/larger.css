@@ -9,15 +9,27 @@
 }
     
 .navi {
-    display: inline-table;
+    display: inline-block;
     margin-top: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 100px;
     background-color: black;
     text-align: center;
+    width: 96%;
+
+}
+
+.navi :link {
+    color: white
+}
+
+.navi :visited {
+    color: white
+}
+
+.navi :hover {
+    color: red;
 }
     
 #me {
