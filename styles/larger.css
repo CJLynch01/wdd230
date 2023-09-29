@@ -7,7 +7,13 @@
     align-items: center;
     justify-content: center;
 }
-    
+
+#menu {
+    display: none;
+}
+
+
+
 .navi {
     display: inline-block;
     margin-top: 10px;
@@ -16,8 +22,13 @@
     border-radius: 100px;
     background-color: black;
     text-align: center;
-    width: 96%;
+    width: 100%;
+}
 
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 
 .navi :link {
