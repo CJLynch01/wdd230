@@ -1,108 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Open+Sans&display=swap');
-
-
 html {
-  background-color: #1D8A99;
+    background-color: #1D8A99;
 }
 
 body {
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather";
-  color: #1D8A99;
+    font-family: "Georgia", serif;
+    color: #1D8A99;
 }
 
 h4 {
     color: #000000;
-    font-family: "Open Sans";
+    font-family: "DejaVu Sans Mono", monospace;
 }
 
 header {
-  padding: 1em;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #000000;
+    padding: 1em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
 }
 
 header > h1, header > h2 {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 p {
-  font-family: "Open Sans";
-  color: #000000;
-  padding: 1em;
+    font-family: "DejaVu Sans Mono", monospace;
+    color: #000000;
+    padding: 1em;
 }
 
 .colors {
-  width: 100%;
-  min-width: 350px;
-  margin: auto;
-  text-align: center;
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
 }
 
 .colors th {
-  background-color: #999;
+    background-color: #999;
 }
 
 .colors td{
-  width: 25%;
-  height: 3em;
+    width: 25%;
+    height: 3em;
 }
 
 .primary {
-  background-color: #1D8A99;
+    background-color: #1D8A99;
 }
 
 .secondary {
-  background-color: #424651;
+    background-color: #424651;
 }
 
 .accent1 {
-  background-color: #8FBFE0;
+    background-color: #8FBFE0;
 }
 
 .accent2{
-  background-color: #14FFF7;
+    background-color: #14FFF7;
 }
 
 p.colored {
-  background-color: #000000;
-  color: #FFFFFF;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 nav {
-  background-color: #424651;
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
+    background-color: #424651;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 nav > ul {
-  list-style-type: none;
-  display: flex;
+    list-style-type: none;
+    display: flex;
 
 }
 
 nav a {
-  padding:1em;
-  min-width: 70px;
+    padding:1em;
+    min-width: 70px;
 }
 
 nav a:link, nav a:visited {
-  color: #8FBFE0;
+    color: #8FBFE0;
 }
 
 nav a:hover {
-  color: #14FFF7;
-  background-color: #000000;
+    color: #14FFF7;
+    background-color: #000000;
 }
