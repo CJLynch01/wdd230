@@ -1,0 +1,105 @@
+@media screen and (min-width: 500px) and (max-width: 800px) {
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D8A99;
+}
+    
+ul {
+    display: flex;
+    list-style-type: none;
+    border: none;
+}
+    
+li {
+    margin-left: 2em;
+    background-color: #424651;
+    padding: 10px;
+}
+    
+nav a:link, nav a:visited {
+    color: #8FBFE0;
+}
+    
+nav a:hover {
+    color: #14FFF7;
+    background-color: #000000;
+}
+    
+h1 {
+    font-family: Georgia, Serif;
+    text-align: center;
+    border: 5px solid #424651;
+    padding: 10px;
+}
+    
+.logo {
+    display: flex;
+    margin-right: 2em;
+}
+    
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+    
+.topimage {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+    
+.event1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+    
+.eventimage {
+    grid-column: 2;
+    grid-row: 2;
+}
+    
+.event2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+    
+.joinimage1 {
+    grid-column: 1;
+    grid-row: 3;
+}
+    
+.join1 {
+    grid-column: 2;
+    grid-row: 3;
+}
+    
+.joinimage2 {
+    grid-column: 3;
+    grid-row: 3;
+}
+    
+.spotpicture1 {
+    grid-column: 1;
+    grid-row: 4;
+}
+    
+.spotlight1 {
+    grid-column: 2;
+    grid-row: 4;
+}
+    
+.spotpicture2 {
+    grid-column: 3;
+    grid-row: 4;
+}
+    
+footer {
+    background-color: #424651;
+    color: #8FBFE0;
+    text-align: center;
+}
+
+}
