@@ -6,6 +6,10 @@ header {
     justify-content: center;
     background-color: #1D8A99;
 }
+
+#menu {
+    display: none;
+}
     
 ul {
     display: flex;
@@ -25,7 +29,7 @@ nav a:link, nav a:visited {
     
 nav a:hover {
     color: #14FFF7;
-    background-color: #000000;
+    background-color: black;
 }
     
 h1 {

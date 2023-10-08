@@ -7,6 +7,10 @@ header {
     background-color: #1D8A99;
 }
 
+#menu {
+    display: none;
+}
+
 ul {
     display: flex;
     list-style-type: none;
