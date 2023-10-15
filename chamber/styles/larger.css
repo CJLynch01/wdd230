@@ -13,8 +13,8 @@ span {
 
 #mode {
 	position: absolute;
-	top: 10rem;
-	left: 1rem;
+	top: 1rem;
+	right: 0rem;
 	font-size: 5rem;
 	cursor: pointer;
 }
