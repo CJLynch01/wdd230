@@ -7,6 +7,16 @@ header {
     background-color: #1D8A99;
 }
 
+
+
+#mode {
+	position: absolute;
+	top: 10rem;
+	left: 1rem;
+	font-size: 5rem;
+	cursor: pointer;
+}
+
 #menu {
     display: none;
 }
