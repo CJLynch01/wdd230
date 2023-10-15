@@ -1,10 +1,16 @@
 @media screen and (max-width: 600px) {
 
-header {
+.both {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1D8A99;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+span {
+    padding-right: 1em;
 }
     
 #menu {
@@ -14,7 +20,7 @@ header {
 	background-color: #eee;
 	color: #000;
  	position: absolute;
-	top: 1rem;
+    top: 12rem;
 	right: 1rem;
 }
 
@@ -72,11 +78,6 @@ h1 {
     text-align: center;
     border: 5px solid #424651;
     padding: 10px;
-}
-    
-.logo {
-    display: flex;
-    margin-right: 2em;
 }
     
 .home-grid {
