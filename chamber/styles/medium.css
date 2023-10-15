@@ -1,13 +1,15 @@
 @media screen and (min-width: 600px) and (max-width: 900px) {
 
-header {
+.both {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1D8A99;
 }
 
-
+span {
+    padding-right: 1em;
+}
 
 #mode {
 	position: absolute;
@@ -32,7 +34,12 @@ li {
     background-color: #424651;
     padding: 10px;
 }
-    
+
+nav ul {
+    justify-content: center;
+    background-color: #424651;
+}
+
 nav a:link, nav a:visited {
     color: #8FBFE0;
 }

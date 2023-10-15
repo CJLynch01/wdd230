@@ -35,6 +35,11 @@ li {
     padding: 10px;
 }
 
+nav ul {
+    justify-content: center;
+    background-color: #424651;
+}
+
 nav a:link, nav a:visited {
     color: #8FBFE0;
 }
