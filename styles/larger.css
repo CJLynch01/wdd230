@@ -12,8 +12,6 @@
     display: none;
 }
 
-
-
 .navi {
     display: inline-block;
     margin-top: 10px;
@@ -60,6 +58,11 @@ main {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 100%;
     align-items: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
 }
     
 h1 {

@@ -81,6 +81,11 @@ main {
     width: 100%;
     align-items: center;
 }
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
     
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
