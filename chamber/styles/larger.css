@@ -7,6 +7,11 @@
     background-color: #1D8A99;
 }
 
+#logo {
+    width: 100px;
+    height: auto;
+}
+
 span {
     padding-right: 1em;
 }

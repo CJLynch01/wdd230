@@ -5,8 +5,13 @@
     align-items: center;
     justify-content: center;
     background-color: #1D8A99;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
 }
 
 span {
