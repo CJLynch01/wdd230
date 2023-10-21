@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 500px) and (max-width: 900px) {
 
 .both {
     display: flex;
@@ -47,6 +47,11 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: #14FFF7;
     background-color: black;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
 }
     
 h1 {

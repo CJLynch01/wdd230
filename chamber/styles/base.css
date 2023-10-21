@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
 .both {
     display: flex;
@@ -79,6 +79,11 @@ span {
 
 ul {
     list-style-type: none;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
 }
     
 h1 {

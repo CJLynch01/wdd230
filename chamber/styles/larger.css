@@ -49,6 +49,11 @@ nav a:hover {
     background-color: #000000;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     font-family: Georgia, Serif;
     text-align: center;
