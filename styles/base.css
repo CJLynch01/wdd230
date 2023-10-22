@@ -73,25 +73,18 @@ ul {
     list-style-type: none;
     color: black;
 }
-    
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 100%;
-    align-items: center;
-}
 
 .hero img {
     width: 100%;
     height: auto;
+
 }
 
 .herolabel {
 	position: absolute;
-	top: 250px;
+	top: 150px;
 	left: 30px;
-	background: radial-gradient(#fff, #4D5B97);
+	background: radial-gradient(#fff, #080808);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
@@ -109,6 +102,14 @@ main {
     
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
 }
     
 h2 {
