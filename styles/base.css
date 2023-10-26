@@ -147,6 +147,11 @@ h3 {
     grid-row: 4;
 }
 
+.total {
+    text-align: center;
+    color: black;
+}
+
 footer {
     background-color: blue;
     color: white;
