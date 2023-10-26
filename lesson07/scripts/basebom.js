@@ -1,43 +1,49 @@
-//In your js file, declare three const variables that hold references to the input, button, and .list elements.
-
 const input = document.querySelector('#favchap');
-const input2 = document.querySelector('#favhero')
 const button = document.querySelector('button');
-const button2 = document.querySelector('#button2')
 const list = document.querySelector('#list');
-const list2 = document.querySelector('#heroes');
 
-//Create a click event listener for the Add Chapter button using addEventListener and an anonymous function or arrow function.
+let chaptersArray = getChapterList() || [];
 
-button.addEventListener('click', function() { 
+chaptersArray.array.forEach(chapter => {
+    displayList(chapter);
+});
+
+button.addEventListener('click', () => { 
     if (input.value != '') { 
-        const li = document.createElement ('li')
-        const deleteButton = document.createElement ('button')
-        li.textContent = input.value
-        deleteButton.textContent = '❌'
-        li.append(deleteButton)
-        list.append(li)
-        deleteButton.addEventListener('click', function () {
-            list.removeChild(li)
-            input.focus()})
-        input.focus()
+        displayList(input.value);
+        chaptersArray.push(input.value);
+        setChapterList();
         input.value = ''
+        input.focus()
      }
- });
+});
 
- button2.addEventListener('click', function() { 
-    if (input2.value != '') { 
-        const li = document.createElement ('li')
-        const deleteButton2 = document.createElement ('button')
-        li.textContent = input2.value
-        deleteButton2.textContent = '❌'
-        li.append(deleteButton2)
-        list2.append(li)
-        deleteButton2.addEventListener('click', function () {
-            list2.removeChild(li)
-            input2.focus()})
-        input2.focus()
-        input2.value = ''
-     }
- });
+function displayList(item) {
+    let li = document.createElement('li');
+    let deletebutton = document.createElement('button');
+    li.textContent = item;
+    deletebutton.textContent = '❌';
+    deletebutton.classList.add('delete');
+    li.append(deletebutton);
+    list.append(li);
+    deletebutton.addEventListener('click', function () {
+        list.removeChild(li);
+        deleteChapter(li.textContent);
+        input.focus();
+    });
+}
+
+function setChapterList() {
+    localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
+}
+
+function getChapterList() {
+    return JSON.parse(localStorage.getItem('myFavBOMList'));
+}
+
+function deleteChapter(chapter) {
+    chapter = chapter.slice(0, chapter.length - 1);
+    chaptersArray = chaptersArray.filter(item => item !== chapter);
+    setChapterList();
+}
 
