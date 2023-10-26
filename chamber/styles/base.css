@@ -102,6 +102,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
 }
     
 .event1 {
@@ -122,6 +123,11 @@ h1 {
 .weather {
     grid-column: 1;
     grid-row: 4;
+    justify-content: center;
+}
+
+.weathertitle {
+    color: red;
 }
     
 .join1 {
