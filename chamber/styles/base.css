@@ -166,10 +166,13 @@ footer {
 /* ------discover.html css code below-----*/
 
 @media screen and (max-width: 600px) {
+
+
+
 .home-grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -207,6 +210,37 @@ footer {
     grid-row: 6;
 }
 
+.total {
+    border-style: double;
+    background-color: #424651;
+    color: #8FBFE0;
+    grid-column: 2;
+    grid-row: 7;
+}
 
+.washingtonterrace {
+    grid-column: 2;
+    grid-row: 8;
+}
+
+.incomestats {
+    grid-column: 2;
+    grid-row: 9;
+}
+
+.workstats {
+    grid-column: 2;
+    grid-row: 10;
+}
+
+.earningstats {
+    grid-column: 2;
+    grid-row: 11;
+}
+
+.educationstats {
+    grid-column: 2;
+    grid-row: 12;
+}
 
 }

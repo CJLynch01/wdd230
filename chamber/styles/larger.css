@@ -142,55 +142,86 @@ footer {
     .home-grid2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         align-items: center;
         text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        border-collapse: inherit;
     }
     
-    .image1 {
+    .image1:hover {
         grid-column: 2;
         grid-row: 1;
-        border-left-style: double;
-        border-top-style: double;
-        border-right-style: double;
-        padding-left: 5px;
-        padding-right: 5px;
+        box-shadow: 0 0 50px #333;
     }
     
-    .image2 {
+    .image2:hover {
         grid-column: 2;
         grid-row: 2;
-        border-left-style: double;
-        border-right-style: double;
+        box-shadow: 0 0 50px #333;
     }
     
-    .image3 {
+    .image3:hover {
         grid-column: 2;
         grid-row: 3;
-        border-left-style: double;
-        border-right-style: double;
+        box-shadow: 0 0 50px #333;
     }
     
-    .image4 {
+    .image4:hover {
         grid-column: 2;
         grid-row: 4;
-        border-left-style: double;
-        border-right-style: double;
+        box-shadow: 0 0 50px #333;
     }
     
-    .image5 {
+    .image5:hover {
         grid-column: 2;
         grid-row: 5;
-        border-left-style: double;
-        border-right-style: double;
+        box-shadow: 0 0 50px #333;
     }
     
-    .image6 {
+    .image6:hover {
         grid-column: 2;
         grid-row: 6;
-        border-left-style: double;
-        border-right-style: double;
-        border-bottom-style: double;
+        box-shadow: 0 0 50px #333;
+    }
+    
+    .washingtonterrace {
+        grid-column: 1;
+        grid-row: 1;
+        border-style: double;
+    }
+    
+    .incomestats {
+        grid-column: 1;
+        grid-row: 2;
+        border-style: double;
+    }
+    
+    .workstats {
+        grid-column: 1;
+        grid-row: 3;
+        border-style: double;
+    }
+    
+    .earningstats {
+        grid-column: 1;
+        grid-row: 4;
+        border-style: double;
+    }
+    
+    .educationstats {
+        grid-column: 1;
+        grid-row: 5;
+        border-style: double;
+    }
+    
+    .total {
+        border-style: double;
+        background-color: #424651;
+        color: #8FBFE0;
+        grid-column: 1;
+        grid-row: 6;
     }
     
     

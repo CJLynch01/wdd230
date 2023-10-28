@@ -29,3 +29,18 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🌚";
 	}
 });
+
+//visits
+const visitsDisplay = document.querySelector(".visits");
+
+let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 1;
+
+if (numVisits !== 1) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
+}
+
+numVisits++;
+
+localStorage.setItem("numVisits-ls", numVisits);
