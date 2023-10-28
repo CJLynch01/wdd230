@@ -134,3 +134,64 @@ footer {
 }
 
 }
+
+
+/* ------discover.html css code below-----*/
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .home-grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .image1 {
+        grid-column: 2;
+        grid-row: 1;
+        border-left-style: double;
+        border-top-style: double;
+        border-right-style: double;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .image2 {
+        grid-column: 2;
+        grid-row: 2;
+        border-left-style: double;
+        border-right-style: double;
+    }
+    
+    .image3 {
+        grid-column: 2;
+        grid-row: 3;
+        border-left-style: double;
+        border-right-style: double;
+    }
+    
+    .image4 {
+        grid-column: 2;
+        grid-row: 4;
+        border-left-style: double;
+        border-right-style: double;
+    }
+    
+    .image5 {
+        grid-column: 2;
+        grid-row: 5;
+        border-left-style: double;
+        border-right-style: double;
+    }
+    
+    .image6 {
+        grid-column: 2;
+        grid-row: 6;
+        border-left-style: double;
+        border-right-style: double;
+        border-bottom-style: double;
+    }
+    
+    
+    }
