@@ -45,6 +45,11 @@ nav ul {
     padding-right: 10px;
 }
 
+ul {
+    list-style-type: none;
+    color: black;
+}
+
 footer {
     background-color: blue;
     color: white;
