@@ -114,6 +114,18 @@ form label.top input {
     max-width: 20rem;
 }
 
+#formmessage {
+	visibility: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
+
+#pwd:invalid {
+	background-color: #fff0f3;
+	animation: shaketext 500ms;
+}
+
 footer {
     background-color: blue;
     color: white;
