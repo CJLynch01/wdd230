@@ -29,6 +29,41 @@
         </ul>
     </nav>
 
+    <main>
+
+        <h1>Rating Form</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Form</legend>
+                <label class="top">Username*: <input type="text" name="username" required></label>
+                <label class="top" for="pwd">Password*: </label>
+                    <input type="password" id="pwd" name="pwd" pattern="[A-Z a-z 0-9].{8,}" placeholder="Must contain at least 8 characters, alpha and or numeric">
+                <label class="top" for="pwd2">Confirm Password*: </label>
+                    <input type="password" id="pwd2" name="pwd2" pattern="[A-Z a-z 0-9].{8,}" placeholder="Please confirm password">
+                <label class="top" for="email">Email*: </label>
+                    <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+                <label class="top" for="r">Page Rating: </label>
+                    <div id="rangevalue">1</div>
+                    <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+
+                <button id="btnSubmit" type="submit">Submit</button>
+
+            </fieldset>
+
+    </main>
+
     <footer>
         <p>
             &copy;<span id="year"></span><br>
