@@ -63,3 +63,7 @@ function checkSame() {
 		kp2.style.color = "#000";
 	}
 }
+
+// join now page pattern to only accept alpha characters, hyphens, and spaces with a minimum of seven characters using
+
+//const jobmatching = ""
