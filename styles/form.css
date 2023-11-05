@@ -103,7 +103,7 @@ form label.top input {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.btnSubmit {
+#btnSubmit {
     border: none;
     background-color: #9c2c13;
     color: white;

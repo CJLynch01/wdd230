@@ -32,8 +32,8 @@ localStorage.setItem("numVisits-ls", numVisits);
 
 
 //input range for form
-const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("r");
+const rangevalue = document.getElementById("#rangevalue");
+const range = document.getElementById("#r");
 
 range.addEventListener('change', displayRatingValue);
 range.addEventListener('input', displayRatingValue);
@@ -66,4 +66,9 @@ function checkSame() {
 
 // join now page pattern to only accept alpha characters, hyphens, and spaces with a minimum of seven characters using
 
-//const jobmatching = ""
+//const hidden timestamp
+
+var field = document.querySelector("#hidden");
+var date2 = Date.now();
+
+field.value = date2;

@@ -42,13 +42,14 @@
 
             <h1 class="join">Join Now!</h1>
             <form method="get" action="thankyou.html">
+                <input id="hidden" name="hidden" value="" type="hidden">
                 <fieldset>
                     <legend>Applicant Application</legend>
                     <label class="top">First Name*: <input type="text" name="fname" required></label>
                     <label class="top">Last Name*: <input type="text" name="lname" required></label>
                     <label class="top">Job Title: <input id="jobtitle" type="text" name="jobtitle" pattern="[A-Z a-z 0-9].{7,}"></label>
                     <label class="top">Email*: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Mobile Number*: <input type="url" name="url" placeholder="123456789" required></label>
+                    <label class="top">Mobile Number*: <input type="text" name="url" placeholder="123456789" required></label>
                 </fieldset>
 
                 <fieldset>
@@ -128,7 +129,7 @@
             
                     </tbody>
                 </table>
-                
+
             <div class="desktop">
                 <img id="fig1" src="images/membership1.webp" alt="Figure 1" width="450" height="300">
                 <img id="fig2" src="images/membership2.webp" alt="Figure 2" width="450" height="300">
