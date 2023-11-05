@@ -30,15 +30,17 @@ modeButton.addEventListener("click", () => {
 	}
 });
 
-//visits
+//# of visits
 const visitsDisplay = document.querySelector(".visits");
-
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 1;
+const today = Date.now();
 
-if (numVisits !== 1) {
-	visitsDisplay.textContent = numVisits;
+if (numVisits === 1) {
+	visitsDisplay.textContent === `Welcome! Let us know if you have any questions.`;
+} else if (numVisits > 1, today < 1) {
+	visitsDisplay.textContent === `Back so soon! Awesome!`;
 } else {
-	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
+	visitsDisplay.textContent === 'You last visited';
 }
 
 numVisits++;
