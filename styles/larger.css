@@ -30,11 +30,11 @@ nav ul {
 }
 
 .navi :link {
-    color: white
+    color: white;
 }
 
 .navi :visited {
-    color: white
+    color: white;
 }
 
 .navi :hover {
@@ -51,19 +51,10 @@ ul {
     list-style-type: none;
     color: black;
 }
-    
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 100%;
-    align-items: center;
-}
 
 .hero img {
     width: 100%;
     height: auto;
-    padding-top: 10px;
 }
 
 .herolabel {
@@ -85,11 +76,18 @@ ul {
 	font-family:"Great Vibes", serif;
 }
 
-    
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
     
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
+}
+       
 h2 {
     grid-column: 2;
     grid-row: 1;   
@@ -149,7 +147,7 @@ footer {
 
 /* join.html page */
 
-main {
+.joinpage {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
