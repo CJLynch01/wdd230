@@ -13,6 +13,7 @@ fetch("cities.json")
                 <td>${city.name}</td>
                 <td>${city.state_name}</td>
                 <td>${city.country_name}</td>
+                <td>${city.country_code}</td>
             </tr>
         
         `;
