@@ -20,16 +20,30 @@ const displayLinks = (lessons) => {
         let description = document.createElement('title');
 
         description.setAttribute('src', week.url);
-
-        numbers.textContent = `Week ${week.lesson}: ${links.title}`;
-
-        card.appendChild(numbers);
-        card.appendChild(description);
         
+
+        numbers.textContent = `Week ${week.lesson}: `
+
+        let last = week.links[week.links.length -1];
+
+
+        week.links.forEach((url) => {
+            let link = document.createElement('a');
+            link.setAttribute('href',url.url);
+            link.setAttribute('title', url.title)
+            if(url != last) {
+                link.innerHTML = url.title + " | ";
+            }
+            else {
+                link.innerHTML = url.title;
+            }
+           
+            numbers.appendChild(link);
+        })
+
+        card.appendChild(description);
+        card.appendChild(numbers);
         cards.appendChild(card);
-
-
-
 
     });
 }
