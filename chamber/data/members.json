@@ -1,0 +1,67 @@
+{
+    "businesses" : [
+        {
+            "name" : "Maverik",
+            "address" : "5153 South Adams Ave., Washington Terrace, UT 84405",
+            "phone" : "801475177",
+            "website" : "https://maverik.com/",
+            "image" : "Maverik.webp",
+            "membership" : "Gold Membership",
+            "information": "Gas Station"
+        },
+        {
+            "name" : "Ogden Regional Medical Center",
+            "address" : "5475 S 500 E, Ogden, UT 84405",
+            "phone" : "8014792111",
+            "website" : "https://mountainstar.com/locations/ogden-regional-medical-center/?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+            "image" : "images/ORMC.webp",
+            "membership" : "Non Profit Membership",
+            "information": "Hospital"
+        },
+        {
+            "name" : "Marco's Pizza",
+            "address" : "4370 S Washington Blvd A., South Ogden, UT 84403",
+            "phone" : "3853644100",
+            "website" : "https://www.marcos.com/",
+            "image" : "MarcosPizza.webp",
+            "membership" : "Bronze Membership",
+            "information": "Restaurant"
+        },
+        {
+            "name" : "Smith's",
+            "address" : "4275 Harrison Blvd., Ogden, UT 84403",
+            "phone" : "8014790703",
+            "website" : "https://www.smithsfoodanddrug.com/stores/grocery/ut/ogden/country-hills-plaza/706/00030?cid=loc_70600030_gmb",
+            "image" : "images/Smiths.webp",
+            "membership" : "Silver Membership",
+            "information": "Grocery Store"
+        },
+        {
+            "name" : "Handel's Homemade Ice Cream",
+            "address" : "4021 Riverdale Rd., Riverdale, UT 84405",
+            "phone" : "3854924373",
+            "website" : "https://handelsicecream.com/store/ogden/",
+            "image" : "Handels.webp",
+            "membership" : "Bronze Membership",
+            "information": "Restaurant"
+        },
+        {
+            "name" : "FiiZ Drinks",
+            "address" : "6029 Fashion Point Dr., South Ogden, UT 84403",
+            "phone" : "8014797695",
+            "website" : "https://fiizdrinks.com/",
+            "image" : "images/FiiZ.webp",
+            "membership" : "Bronze Membership",
+            "information": "Restaurant"
+        },
+        {
+            "name" : "Costco",
+            "address" : "3656 Wall Ave., Ogden, UT 84405",
+            "phone" : "8013173953",
+            "website" : "https://www.costco.com/warehouse-locations/ogden-UT-770.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
+            "image" : "images/costco.webp",
+            "membership" : "Gold Membership",
+            "information": "Grocery Store"
+        }
+    ]
+}
