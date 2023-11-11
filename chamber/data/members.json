@@ -5,7 +5,7 @@
             "address" : "5153 South Adams Ave., Washington Terrace, UT 84405",
             "phone" : "801475177",
             "website" : "https://maverik.com/",
-            "image" : "Maverik.webp",
+            "image" : "images/Maverik.webp",
             "membership" : "Gold Membership",
             "information": "Gas Station"
         },
@@ -23,7 +23,7 @@
             "address" : "4370 S Washington Blvd A., South Ogden, UT 84403",
             "phone" : "3853644100",
             "website" : "https://www.marcos.com/",
-            "image" : "MarcosPizza.webp",
+            "image" : "images/MarcosPizza.webp",
             "membership" : "Bronze Membership",
             "information": "Restaurant"
         },
@@ -41,7 +41,7 @@
             "address" : "4021 Riverdale Rd., Riverdale, UT 84405",
             "phone" : "3854924373",
             "website" : "https://handelsicecream.com/store/ogden/",
-            "image" : "Handels.webp",
+            "image" : "images/Handels.webp",
             "membership" : "Bronze Membership",
             "information": "Restaurant"
         },
