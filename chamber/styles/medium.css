@@ -34,7 +34,7 @@ ul {
     border: none;
 }
     
-li {
+nav li {
     margin-left: 2em;
     background-color: #424651;
     padding: 10px;
@@ -133,96 +133,93 @@ footer {
     text-align: center;
 }
 
-}
-
-
 /* ------discover.html css code below-----*/
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
-    .home-grid2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        align-items: center;
-        text-align: center;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: larger;
-        border-collapse: inherit;
-    }
+
+.home-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-collapse: inherit;
+}
     
-    .image1:hover {
-        grid-column: 2;
-        grid-row: 1;
-        box-shadow: 0 0 50px #333;
-    }
+.image1:hover {
+    grid-column: 2;
+    grid-row: 1;
+    box-shadow: 0 0 50px #333;
+}
     
-    .image2:hover {
-        grid-column: 2;
-        grid-row: 2;
-        box-shadow: 0 0 50px #333;
-    }
+.image2:hover {
+    grid-column: 2;
+    grid-row: 2;
+    box-shadow: 0 0 50px #333;
+}
     
-    .image3:hover {
-        grid-column: 2;
-        grid-row: 3;
-        box-shadow: 0 0 50px #333;
-    }
+.image3:hover {
+    grid-column: 2;
+    grid-row: 3;
+    box-shadow: 0 0 50px #333;
+}
     
-    .image4:hover {
-        grid-column: 2;
-        grid-row: 4;
-        box-shadow: 0 0 50px #333;
-    }
+.image4:hover {
+    grid-column: 2;
+    grid-row: 4;
+    box-shadow: 0 0 50px #333;
+}
     
-    .image5:hover {
-        grid-column: 2;
-        grid-row: 5;
-        box-shadow: 0 0 50px #333;
-    }
+.image5:hover {
+    grid-column: 2;
+    grid-row: 5;
+    box-shadow: 0 0 50px #333;
+}
     
-    .image6:hover {
-        grid-column: 2;
-        grid-row: 6;
-        box-shadow: 0 0 50px #333;
-    }
+.image6:hover {
+    grid-column: 2;
+    grid-row: 6;
+    box-shadow: 0 0 50px #333;
+}
     
-    .washingtonterrace {
-        grid-column: 1;
-        grid-row: 1;
-        border-style: double;
-    }
+.washingtonterrace {
+    grid-column: 1;
+    grid-row: 1;
+    border-style: double;
+}
     
-    .incomestats {
-        grid-column: 1;
-        grid-row: 2;
-        border-style: double;
-    }
+.incomestats {
+    grid-column: 1;
+    grid-row: 2;
+    border-style: double;
+}
     
-    .workstats {
-        grid-column: 1;
-        grid-row: 3;
-        border-style: double;
-    }
+.workstats {
+    grid-column: 1;
+    grid-row: 3;
+    border-style: double;
+}
     
-    .earningstats {
-        grid-column: 1;
-        grid-row: 4;
-        border-style: double;
-    }
+.earningstats {
+    grid-column: 1;
+    grid-row: 4;
+    border-style: double;
+}
     
-    .educationstats {
-        grid-column: 1;
-        grid-row: 5;
-        border-style: double;
-    }
+.educationstats {
+    grid-column: 1;
+    grid-row: 5;
+    border-style: double;
+}
     
-    .total {
-        border-style: double;
-        background-color: #424651;
-        color: #8FBFE0;
-        grid-column: 1;
-        grid-row: 6;
-    }
+.total {
+    border-style: double;
+    background-color: #424651;
+    color: #8FBFE0;
+    grid-column: 1;
+    grid-row: 6;
+}
 
     /* join.html page */
 
@@ -303,5 +300,87 @@ form label.top input, label.middle input {
     grid-column: 2;
 }
 
+/*-----------directory-----------*/
 
-    }
+
+
+.directory {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #fff;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+#cards li {
+    list-style-type: none;
+}
+
+.directorymenu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+    margin: 1rem;
+	background-color: #ad6161;
+}
+
+.directorygrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.directorygrid section {
+	text-align: center;
+}
+
+.directorygrid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 30px white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.directorygrid section > * {
+	margin: .5;
+}
+
+.directorygrid h3 {
+	font-family: "Caveat", cursive;
+}
+
+.directorylist {
+	display: flex;
+	flex-direction: column;
+}
+
+.directorylist section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.directorylist section > * {
+	margin: 0 1rem;
+}
+
+.directorylist section img {
+	display: none;
+}
+
+.directorylist section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.directorylist section:nth-child(even) {
+	background-color: #1D8A99;
+}
+
+}

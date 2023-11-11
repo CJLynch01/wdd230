@@ -34,7 +34,7 @@ ul {
     border: none;
 }
 
-li {
+nav li {
     margin-left: 2em;
     background-color: #424651;
     padding: 10px;
@@ -300,6 +300,89 @@ form label.top input, label.middle input {
 .desktop {
     display: grid;
     grid-column: 2;
+}
+
+/*-----------directory-----------*/
+
+
+
+.directory {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #fff;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+#cards li {
+    list-style-type: none;
+}
+
+.directorymenu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+    margin: 1rem;
+	background-color: #ad6161;
+}
+
+.directorygrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.directorygrid section {
+	text-align: center;
+}
+
+.directorygrid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 30px white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.directorygrid section > * {
+	margin: .5;
+}
+
+.directorygrid h3 {
+	font-family: "Caveat", cursive;
+}
+
+.directorylist {
+	display: flex;
+	flex-direction: column;
+}
+
+.directorylist section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.directorylist section > * {
+	margin: 0 1rem;
+}
+
+.directorylist section img {
+	display: none;
+}
+
+.directorylist section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.directorylist section:nth-child(even) {
+	background-color: #1D8A99;
 }
     
 }

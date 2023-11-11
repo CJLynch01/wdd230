@@ -50,3 +50,22 @@ const displaybusinesses = (businesses) => {
     });
 
 }
+
+//grid and list buttons
+
+const gridbutton = document.querySelector("#directorygrid");
+const listbutton = document.querySelector("#directorylist");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("directorygrid");
+	display.classList.remove("directorylist");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("directorylist");
+	display.classList.remove("directorygrid");
+}

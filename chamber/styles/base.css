@@ -20,7 +20,7 @@ span {
 
 #mode {
 	position: absolute;
-	top: 10rem;
+	top: 5rem;
 	left: 1rem;
 	font-size: 5rem;
 	cursor: pointer;
@@ -355,33 +355,86 @@ caption {
 
 
 /*-----------directory-----------*/
-#cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
 
-#cards h3 {
-    color:#000;
+
+
+.directory {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #fff;
+	font-family: Roboto, Helvetica, sans-serif;
 }
 
 #cards li {
     list-style-type: none;
 }
 
-#cards section {
-    margin: 0.25rem;
-    padding: 0.35rem;
-    background-color: #eee;
-    border: 1px solid #bbb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.directorymenu button {
+	padding: 1rem;
+	font-weight: 700;
 }
 
-#cards img {
-    box-shadow: 0 0 30px #777;
-    border: 1px solid #333;
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+    margin: 1rem;
+	background-color: #ad6161;
 }
 
+.directorygrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.directorygrid section {
+	text-align: center;
+}
+
+.directorygrid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 30px white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.directorygrid section > * {
+	margin: .5;
+}
+
+.directorygrid h3 {
+	font-family: "Caveat", cursive;
+}
+
+.directorylist {
+	display: flex;
+	flex-direction: column;
+}
+
+.directorylist section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.directorylist section > * {
+	margin: 0 1rem;
+}
+
+.directorylist section img {
+	display: none;
+}
+
+.directorylist section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.directorylist section:nth-child(even) {
+	background-color: #1D8A99;
+}
 
 }
