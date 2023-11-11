@@ -22,15 +22,17 @@ const displaybusinesses = (businesses) => {
         let membership = document.createElement('li');
         let information = document.createElement('li');
     
+        name.textContent = `${business.name}`;
+        address.textContent = `${business.address}`
+        phone.textContent = `Phone: ${business.phone}`
+        website.textContent = `${business.website}`
+        membership.textContent = `Membership: ${business.membership}`
 
         portrait.setAttribute('src', business.image);
         portrait.setAttribute('alt', `Picture of ${business.name}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '250');
         portrait.setAttribute('height', '200');
-
-
-
 
 
         card.appendChild(name);
