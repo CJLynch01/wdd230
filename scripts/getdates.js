@@ -20,20 +20,20 @@ const visitsDisplay = document.querySelector(".visits");
 
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 1;
 
-if (numVisits !== 1) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
-}
+	if (numVisits !== 1) {
+		visitsDisplay.textContent = numVisits;
+	} else {
+		visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
+	}
 
-numVisits++;
+	numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
 
 
 //input range for form
-const rangevalue = document.getElementById("#rangevalue");
-const range = document.getElementById("#r");
+const rangevalue = document.getElementById("rangevalue");
+const range = document.getElementById("r");
 
 range.addEventListener('change', displayRatingValue);
 range.addEventListener('input', displayRatingValue);
