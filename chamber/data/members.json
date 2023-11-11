@@ -4,7 +4,7 @@
             "name" : "Maverik",
             "address" : "5153 South Adams Ave., Washington Terrace, UT 84405",
             "phone" : "801-475-5177",
-            "website" : "https://maverik.com/",
+            "website" : "https://maverik.com",
             "image" : "images/Maverik.webp",
             "membership" : "Gold Membership",
             "information": "Gas Station"
@@ -13,7 +13,7 @@
             "name" : "Ogden Regional Medical Center",
             "address" : "5475 S 500 E, Ogden, UT 84405",
             "phone" : "801-479-2111",
-            "website" : "https://mountainstar.com/locations/ogden-regional-medical-center/?utm_campaign=corp_listings_mgmt&utm_source=google&utm_medium=business_listing",
+            "website" : "https://mountainstar.com",
             "image" : "images/ORMC.webp",
             "membership" : "Non Profit Membership",
             "information": "Hospital"
@@ -22,7 +22,7 @@
             "name" : "Marco's Pizza",
             "address" : "4370 S Washington Blvd A., South Ogden, UT 84403",
             "phone" : "385-364-4100",
-            "website" : "https://www.marcos.com/",
+            "website" : "https://www.marcos.com",
             "image" : "images/MarcosPizza.webp",
             "membership" : "Bronze Membership",
             "information": "Restaurant"
@@ -31,7 +31,7 @@
             "name" : "Smith's",
             "address" : "4275 Harrison Blvd., Ogden, UT 84403",
             "phone" : "801-479-0703",
-            "website" : "https://www.smithsfoodanddrug.com/stores/grocery/ut/ogden/country-hills-plaza/706/00030?cid=loc_70600030_gmb",
+            "website" : "https://www.smithsfoodanddrug.com",
             "image" : "images/Smiths.webp",
             "membership" : "Silver Membership",
             "information": "Grocery Store"
@@ -40,7 +40,7 @@
             "name" : "Handel's Homemade Ice Cream",
             "address" : "4021 Riverdale Rd., Riverdale, UT 84405",
             "phone" : "385-492-4373",
-            "website" : "https://handelsicecream.com/store/ogden/",
+            "website" : "https://handelsicecream.com",
             "image" : "images/Handels.webp",
             "membership" : "Bronze Membership",
             "information": "Restaurant"
@@ -49,7 +49,7 @@
             "name" : "FiiZ Drinks",
             "address" : "6029 Fashion Point Dr., South Ogden, UT 84403",
             "phone" : "801-479-7695",
-            "website" : "https://fiizdrinks.com/",
+            "website" : "https://fiizdrinks.com",
             "image" : "images/FiiZ.webp",
             "membership" : "Bronze Membership",
             "information": "Restaurant"
@@ -58,7 +58,7 @@
             "name" : "Costco",
             "address" : "3656 Wall Ave., Ogden, UT 84405",
             "phone" : "801-317-3953",
-            "website" : "https://www.costco.com/warehouse-locations/ogden-UT-770.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
+            "website" : "https://www.costco.com",
             "image" : "images/costco.webp",
             "membership" : "Gold Membership",
             "information": "Grocery Store"
