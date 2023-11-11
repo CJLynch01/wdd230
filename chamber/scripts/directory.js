@@ -18,7 +18,7 @@ const displaybusinesses = (businesses) => {
         let portrait = document.createElement('img');
         let address = document.createElement('li');
         let phone = document.createElement('li');
-        let website = document.createElement('li');
+        let website = document.createElement('li', 'a');
         let membership = document.createElement('li');
         let information = document.createElement('li');
     
@@ -33,6 +33,8 @@ const displaybusinesses = (businesses) => {
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '250');
         portrait.setAttribute('height', '200');
+
+        website.setAttribute('href', business.website);
 
 
         card.appendChild(name);
