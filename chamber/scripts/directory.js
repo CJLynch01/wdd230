@@ -14,7 +14,7 @@ const displaybusinesses = (businesses) => {
 
     businesses.forEach((business) => {
         let card = document.createElement('section');
-        let name = document.createElement('h2');
+        let name = document.createElement('h3');
         let portrait = document.createElement('img');
         let address = document.createElement('li');
         let phone = document.createElement('li');
