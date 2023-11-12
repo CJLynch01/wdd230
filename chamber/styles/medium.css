@@ -223,7 +223,7 @@ footer {
 
     /* join.html page */
 
-.joinpage {
+.mainjoin {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -236,7 +236,7 @@ footer {
 form fieldset {
     grid-column: 1;
     margin: 3rem 0;
-    border: 3px solid blue;
+    border: 3px solid #1D8A99;
     border-radius: 10px;
     padding: 1rem 2%;
     padding-bottom: 2rem;
@@ -280,7 +280,7 @@ form label.top input, label.middle input {
 
 .joinbtn {
     border: none;
-    background-color: blue;
+    background-color: #1D8A99;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -347,7 +347,7 @@ section {
 }
 
 .directorygrid section > * {
-	margin: .5;
+	margin: 0.5rem;
 }
 
 .directorygrid h3 {
