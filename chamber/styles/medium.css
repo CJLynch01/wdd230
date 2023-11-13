@@ -221,11 +221,16 @@ footer {
     grid-row: 6;
 }
 
-    /* join.html page */
+/* join.html page */
 
 .mainjoin {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.join {
+    text-align: center;
+    grid-column: 1/-1;
 }
 
 .join {
@@ -270,6 +275,29 @@ form label.top input, label.middle input {
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    grid-column: 1;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 2rem;
+}
+
+textarea .middle{
+    grid-column: 1;
+    display: block;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: #9c2c13;
+    font-size: .8rem;
 }
 
 .btn {

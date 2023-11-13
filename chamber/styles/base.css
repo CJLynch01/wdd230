@@ -245,11 +245,23 @@ footer {
 
 /* join.html page */
 
+.mainjoin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .join {
     text-align: center;
+    grid-column: 1/-1;
+}
+
+.join {
+    text-align: center;
+    grid-column: 1/-1;
 }
 
 form fieldset {
+    grid-column: 1;
     margin: 3rem 0;
     border: 3px solid #1D8A99;
     border-radius: 10px;
@@ -258,6 +270,7 @@ form fieldset {
 }
 
 form legend {
+    grid-column: 1;
     text-align: center;
     color: black;
     margin: 0 1rem;
@@ -265,6 +278,7 @@ form legend {
 }
 
 form label.top, label.middle {
+    grid-column: 1;
     display: block;
     padding-top: 1rem;
     padding-left: 2rem;
@@ -273,7 +287,7 @@ form label.top, label.middle {
 }
 
 form label.top input, label.middle input {
-
+    grid-column: 1;
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
@@ -283,6 +297,29 @@ form label.top input, label.middle input {
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    grid-column: 1;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 2rem;
+}
+
+textarea .middle{
+    grid-column: 1;
+    display: block;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: #9c2c13;
+    font-size: .8rem;
 }
 
 .btn {
