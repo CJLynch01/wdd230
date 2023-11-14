@@ -19,10 +19,18 @@ h1 {
 h2 {
     color: navy;
     margin: 0 0 1rem 0;
+    margin-top: 1rem;
 }
 
 h3 {
-    margin: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: smaller;
 }
 
 body {
@@ -30,9 +38,10 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
 }
 
 section {
@@ -40,17 +49,22 @@ section {
     padding: 0.35rem;
     background-color: rgb(135, 135, 197);
     border: 1px solid rgb(78, 78, 196);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 350px;
+
+}
+
+section > p {
+  min-height: 60px;
 }
 
 img {
     width: auto;
-      max-width: 325px;
+    max-width: 325px;
     box-shadow: 0 0 30px black;
     height: 200px;
     border: 1px solid #333;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 li > img {
