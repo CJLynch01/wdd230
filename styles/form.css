@@ -50,18 +50,23 @@ ul {
     color: black;
 }
 #r {
-	width: 180px;
-	margin-bottom: 0;
+    width: 180px;
+	margin-bottom: 10;
+}
+
+.rating {
+    margin-top: 2rem;
 }
 
 #rangevalue {
 	font-size: 2rem;
 	color: navy;
+    margin-top: 0.5rem;
 }
 
 #rangevalues {
 	display: flex;
-	margin: 0 0 0 25px;
+	margin: 0 0 0 3px;
 	width: 200px;
 }
 
@@ -69,13 +74,58 @@ ul {
 	flex: 1 1 auto;
 }
 
+label {
+	display: block;
+	font-weight: 700;
+}
 
+input [type=range] {
+    margin: 1rem;
+    padding: 0.5rem;
+}
 
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
 
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
 
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
 
+input {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
+#formmessage {
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
 
+#pwd:invalid {
+	background-color: #fff0f3;
+	animation: shaketext 500ms;
+}
 
 #btnSubmit {
     border: none;
@@ -86,6 +136,7 @@ ul {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    margin-top: 1rem;
 }
 
 

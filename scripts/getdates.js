@@ -31,29 +31,23 @@ let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 1;
 localStorage.setItem("numVisits-ls", numVisits);
 
 
-//input range for form
-const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("r");
-
 // RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
 
-function displayRatingValue() {
-    rangevalue.innerHTML = range.value;
+function displayRatingValue(number) {
+	const rangevalue = document.getElementById("rangevalue");
+    rangevalue.innerHTML = number;
 }
 
 //Checks password value to be the same
 
-const kp1 = document.querySelector("#pwd");
-const kp2 = document.querySelector("#pwd2");
-const message = document.querySelector("#formmessage");
-
 kp2.addEventListener("focusout", checkSame);
 
 function checkSame() {
+	const kp1 = document.querySelector("#pwd");
+	const kp2 = document.querySelector("#pwd2");
+	const message = document.querySelector("#formmessage");
 	if (kp1.value !== kp2.value) {
-		message.textContent = "❗Key Phrases DO NOT MATCH!";
+		message.textContent = "❗PASSWORDS DO NOT MATCH!";
 		message.style.visibility = "show";
 		kp2.style.backgroundColor = "#fff0f3";
 		kp2.value = "";
