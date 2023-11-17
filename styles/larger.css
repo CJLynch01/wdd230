@@ -123,6 +123,14 @@ h3 {
     grid-row: 4;
 }
 
+.weathertext {
+    text-align: center;
+}
+
+.weatherpicture, figcaption {
+    text-align: center;
+}
+
 .total {
     text-align: center;
     color: black;

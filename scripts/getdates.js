@@ -40,7 +40,7 @@ function displayRatingValue(number) {
 
 //Checks password value to be the same
 
-kp2.addEventListener("focusout", checkSame);
+//kp2.addEventListener("focusout", checkSame);
 
 function checkSame() {
 	const kp1 = document.querySelector("#pwd");
@@ -63,19 +63,20 @@ function checkSame() {
 
 //const hidden timestamp
 
-var field = document.querySelector("#hidden");
-var date2 = Date.now();
+// var field = document.querySelector("#hidden");
+// var date2 = Date.now();
 
-field.value = date2;
+// field.value = date2;
 
 // weather for index.html home page
 
 const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('weather-icon');
+const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=41.17&lon=-111.98&appid=d8a9e71401b6b1b5681eae6b4172a2d7&units=imperial';
 
 async function apiFetch() {
+	console.log("test")
     try {
         const response = await fetch(url);
         if (response.ok) {
@@ -92,13 +93,15 @@ async function apiFetch() {
 }
 
 function displayResults(data) {
-	const weatherIcon = document.querySelector('weather-icon');
+	console.log(data)
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather.icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc );
     weatherIcon.setAttribute('alt', `Weather is ${data.weather.description}`)
-    captionDesc.textContent = `${desc}`;
+
+	captionDesc.textContent = `${desc}`;
 }
 
 apiFetch();
+
