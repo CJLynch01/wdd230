@@ -35,14 +35,30 @@ const visitsDisplay = document.querySelector(".visits");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 1;
 const today = Date.now();
 
-if (numVisits === 1) {
-	visitsDisplay.textContent === `Welcome! Let us know if you have any questions.`;
-} else if (numVisits > 1, today < 1) {
-	visitsDisplay.textContent === `Back so soon! Awesome!`;
-} else {
-	visitsDisplay.textContent === 'You last visited';
-}
+// if (numVisits === 1) {
+// 	visitsDisplay.textContent === `Welcome! Let us know if you have any questions.`;
+// } else if (numVisits > 1, today < 1) {
+// 	visitsDisplay.textContent === `Back so soon! Awesome!`;
+// } else {
+// 	visitsDisplay.textContent === 'You last visited';
+// }
 
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+// removes marquee upon clicking red x
+
+// $('#hidemarquee').click(function () {
+// 	$('.marquee').addClass('hide');
+// });
+
+//marquee to only display monday-wednesday
+
+var DayOfTheWeek = new Date().getDay();
+if(DayOfTheWeek == 1 || DayOfTheWeek == 2 || DayOfTheWeek == 3) {
+	console.log(DayOfTheWeek)
+    $('marquee').show();
+} else {
+    $('marquee').hide();
+}
