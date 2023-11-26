@@ -55,10 +55,18 @@ localStorage.setItem("numVisits-ls", numVisits);
 
 //marquee to only display monday-wednesday
 
-var DayOfTheWeek = new Date().getDay();
-if(DayOfTheWeek == 1 || DayOfTheWeek == 2 || DayOfTheWeek == 3) {
-	console.log(DayOfTheWeek)
-    $('marquee').show();
+const current = new Date;
+const marquee = document.querySelector('#marquee');
+const bannerButton = document.querySelector('#hidemarquee');
+
+if (current.getDay() == 0) {
+	marquee.style.display = 'none';
+} else if (current.getDay() > 3) {
+	marquee.style.display = 'none';
 } else {
-    $('marquee').hide();
-}
+	marquee.style.display = 'flex';
+};
+
+bannerButton.addEventListener('click', () => {
+	marquee.style.display = 'none';
+});
