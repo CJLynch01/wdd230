@@ -82,15 +82,20 @@ h1 {
     grid-column: 1;
     grid-row: 1;
 }
-    
-.eventimage {
-    grid-column: 2;
-    grid-row: 1;
+
+.buffet {
+    width: 300px;
+    height: 200px;
 }
 
 .event2 {
     grid-column: 3;
     grid-row: 1;
+}
+    
+.bowling {
+    width: 300px;
+    height: 200px;
 }
 
 .weathertitle {
@@ -100,9 +105,9 @@ h1 {
     text-align: center;
 }
     
-.joinimage2 {
-    grid-column: 3;
-    grid-row: 3;
+.join1 {
+    grid-column: 1;
+    grid-row: 4;
     font-size: smaller;
 }
 
@@ -110,6 +115,25 @@ h1 {
     text-align: center;
     grid-column: 1;
     grid-row: 3;
+    font-size: smaller;
+}
+
+.weather2 {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row: 3;
+    font-size: smaller;
+}
+
+.weather3 {
+    text-align: center;
+    grid-column: 3;
+    grid-row: 3;
+    font-size: smaller;
+}
+
+.weatherpicture, figcaption {
+    text-align: center;
 }
     
 .spotlight1 {
