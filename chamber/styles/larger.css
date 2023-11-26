@@ -76,6 +76,67 @@ h1 {
     background-color: #424651;
     text-align: center;
     white-space: nowrap;
+    margin-bottom: 1rem;
+}
+      
+#marqueetext {
+    color:#8FBFE0;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+        
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+      
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+}
+      
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+}
+      
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+}
+
+/* hide marquee button */
+
+#hidemarquee {
+    position: flex;
+    cursor: pointer;
+}
+
+.marquee.hide {
+    opacity: 0;
+}
+
+/* scrolling text */
+.marquee {
+    margin-top: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: #424651;
+    text-align: center;
+    white-space: nowrap;
 }
       
 #marqueetext {
@@ -138,12 +199,12 @@ h1 {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     text-align: center;
 }
-    
-.join1 {
+
+.event1 {
     grid-column: 1;
     grid-row: 1;
 }
-    
+
 .eventimage {
     grid-column: 2;
     grid-row: 1;
@@ -168,6 +229,11 @@ h1 {
     font-size: smaller;
 }
 
+.join1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
 .weather2 {
     text-align: center;
     grid-column-start: 2;
@@ -181,10 +247,10 @@ h1 {
     grid-row: 3;
     font-size: smaller;
 }
-    
+
 .spotpicture1 {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 3;
 }
     
 .spotlight1 {
