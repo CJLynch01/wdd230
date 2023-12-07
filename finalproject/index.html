@@ -43,34 +43,48 @@
 
         <main>
             <div class="cozumel">
-                <picture>
-                    <img src="" alt="hero image">
-                </picture>
+                <!-- <picture>
+                    <source srcset="images/beach-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/hero-medium.webp" media="(max-width: 699px)">
+                    <img src="images/hero-large.webp" alt="hero image" width="1500" height="750">
+                </picture> -->
             </div>
 
-            <div class="scooters">
+            <!-- <div class="scooters">
                 <div class="metropolitan"></div>
                     <img src="images/metropolitan.webp">
 
-            </div>
+            </div> -->
 
         </main>
         <footer>
-            <p>
-                address
-            </p>
-            <div class="horizontal-line">
-                <p>
-                    &copy;<span id="year"></span><br>
-                    Christopher Lynch<br>
-                    Utah, United States<br>
-                    <img id="flag" src="" alt="Photo of American flag">
-                </p>
-                <p class="modification">
-                    Last Modification:<span id="date"></span>
-                </p>
+            <div class="directions">
+                <div class="address1">
+                    <p>Location 1</p>
+                    <a href="enlarged1.html" target="_blank"><img class="cruise" src="images/cruisedock.webp"></a>
+                    <p>Click to Enlarge</p>
+                </div>
+                <div class="social">
+                    <a href="www.facebook.com"><img class="facebook" src="images/facebookicon.webp"></a>
+                    <a href="www.instagram.com"><img class="instagram" src="images/instagramicon.webp"></a>
+                    <a href="www.twitter.com"><img class="twitter" src="images/twittericon.webp"></a>
+                </div>
+                <div class="address2">
+                    <p>Location 2</p>
+                    <a href="enlarged2.html" target="_blank"><img class="ferry" src="images/ferrydock.webp"></a>
+                    <p>Click to Enlarge</p>
+                </div>
             </div>
+            <div class="horizontal-line"></div>
+            <p class="yearcomplete">
+                WDD 230 - Scoots Rentals<br>
+                &copy;<span id="year"></span> Christopher Lynch
+            </p>
+            <p class="modification">
+                <span id="date"></span>
+            </p>
         </footer>
+        <script src="scripts/modification.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/darkmode.js"></script>
     </body>
