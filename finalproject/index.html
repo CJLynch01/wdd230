@@ -24,7 +24,6 @@
             <div class="topnav">
                 <img id="logo" src="images/Scoots.webp" alt="business logo">
                 <h1 id="bigname">SCOOTS</h1>
-                <h2>Rentals</h2>
                 <div id="mode">
                     🌚
                 </div>
@@ -37,7 +36,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="rentals.html">Rentals</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="contact">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
 
@@ -55,7 +54,39 @@
                     <img src="images/metropolitan.webp">
 
             </div> -->
-
+            <div class="weather">
+                <h2 class="weathertitle">Forecast for Cozumel!</h2>
+                <div class="weather1">
+                    <p class="weathertext1">Today<br><span id="current-temp"></span></p>
+                        <figure>
+                            <div class="weatherpicture">
+                            <img id="weather-icon1" src="" alt="weather icon">
+                            </div>
+                            <figcaption id="caption1"></figcaption>
+                        </figure>
+                <p>Current Windchill:<b><span id="windChill"></span>&deg;</b></p>
+                </div>
+                <div class="weather2">
+                    <p class="weathertext2">Tomorrow<br><span id="tomorrow-temp"></span></p>
+                        <figure>
+                            <div class="weatherpicture">
+                            <img id="weather-icon2" src="" alt="weather icon">
+                            </div>
+                            <figcaption id="caption2"></figcaption>
+                        </figure>
+                </div>
+            
+                <div class="weather3">
+                    <p class="weathertext3">Day after<br><span id="dayafter-temp"></span></p>
+                        <figure>
+                            <div class="weatherpicture">
+                            <img id="weather-icon3" src="" alt="weather icon">
+                            </div>
+                            <figcaption id="caption3"></figcaption>
+                        </figure>
+                </div>
+            </div>
+            
         </main>
         <footer>
             <div class="directions">
@@ -77,13 +108,14 @@
             </div>
             <div class="horizontal-line"></div>
             <p class="yearcomplete">
-                WDD 230 - Scoots Rentals<br>
+                BYU-I - WDD 230 - Scoots Rentals<br>
                 &copy;<span id="year"></span> Christopher Lynch
             </p>
             <p class="modification">
                 <span id="date"></span>
             </p>
         </footer>
+        <script src="scripts/weather.js"></script>
         <script src="scripts/modification.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/darkmode.js"></script>

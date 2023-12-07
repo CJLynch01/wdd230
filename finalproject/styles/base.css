@@ -7,6 +7,7 @@
 --secondary-color: #03045e;
 --white-: white;
 --accent-color: #EE6C4D;
+--accent-color2: #03045e;
 --slider-main: black;
 --slider-secondary: darkgrey;
 
@@ -96,15 +97,56 @@
 	position: absolute;
 	top: 2rem;
 	left: 1rem;
-	font-size: 5rem;
+	font-size: 3rem;
 	cursor: pointer;
 }
 
+/* Weather */
 
+.weather {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	/* background-color: var(--accent-color);
+	border-radius: 25%; */
+}
 
-.cozumel {
-    width: 100%;
-    height: auto;
+.weathertitle {
+	text-align: center;
+	grid-column: 1/-1;
+	grid-row: 1;
+}
+
+.weather1 {
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: smaller;
+	background-color: var(--accent-color);
+	/* border-radius: 20%; */
+
+}
+
+.weather2 {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row: 2;
+    font-size: smaller;
+	/* background-color: var(--accent-color);
+	border-radius: 20%; */
+}
+
+.weather3 {
+    text-align: center;
+    grid-column: 3;
+    grid-row: 2;
+    font-size: smaller;
+	background-color: var(--accent-color);
+	/* border-radius: 20%; */
+}
+
+.weatherpicture, figcaption {
+    text-align: center;
 }
 
 /*   Footer    */
