@@ -1,38 +1,41 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const url = 'https://github.com/CJLynch01/wdd230/blob/main/finalproject/data/pricing.json';
 const cards = document.querySelector('#cards');
 
-async function getProphetData() {
+async function getPricingData() {
     const response = await fetch(url);
     const data = await response.json();
     //console.table(data.prophets);
-    displayProphets(data.prophets);
+    displayPricing(data.pricing);
 }
 
-getProphetData();
+getPricingData();
 
-const displayProphets = (prophets) => {
-    prophets.forEach((prophet) => {
+const displayPricing = (pricing) => {
+    pricing.forEach((price) => {
         let card = document.createElement('section');
-        let fullName = document.createElement('h2');
-        let birthdate = document.createElement('h3');
-        let birthplace = document.createElement('h4');
-        let portrait = document.createElement('img');
+        let rentaltype = document.createElement('h2');
+        let maxpersons = document.createElement('h3');
+        let reservation = document.createElement('h4');
+        let walkin = document.createElement('h4');
+        let image = document.createElement('img');
   
-        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
-        birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
-        birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
+        rentaltype.textContent = `${pricing.rentaltype}`;
+        maxpersons.textContent = `Max Persons: ${pricing.maxpersons}`;
+        reservation.textContent = `Reservations - Half Day: ${pricing.reservation.halfday}, Full Day: ${pricing.reservation.fullday}`;
+        walkin.textContent = `Walk-In - Half Day: ${pricing.walkin.halfday}, Full Day: ${pricing.walkin.fullday}`;
 
-        portrait.setAttribute('src', prophet.imageurl);
-        portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
+        image.setAttribute('src', pricing.image);
+        image.setAttribute('alt', `Vehicle Type ${pricing.rentaltype}`);
+        image.setAttribute('loading', 'lazy');
+        image.setAttribute('width', '340');
+        image.setAttribute('height', '440');
   
-        card.appendChild(fullName);
-        card.appendChild(birthdate);
-        card.appendChild(birthplace);
+        card.appendChild(rentaltype);
+        card.appendChild(maxpersons);
+        card.appendChild(reservation);
+        card.appendChild(walkin);
         card.appendChild(portrait);
   
         cards.appendChild(card);
     });
-  }
+}
