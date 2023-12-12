@@ -19,13 +19,13 @@ const displayPricing = (pricing) => {
         let walkin = document.createElement('h4');
         let image = document.createElement('img');
   
-        rentaltype.textContent = `${pricing.rentaltype}`;
-        maxpersons.textContent = `Max Persons: ${pricing.maxpersons}`;
-        reservation.textContent = `Reservations - Half Day: ${pricing.reservation.halfday}, Full Day: ${pricing.reservation.fullday}`;
-        walkin.textContent = `Walk-In - Half Day: ${pricing.walkin.halfday}, Full Day: ${pricing.walkin.fullday}`;
+        rentaltype.textContent = `${price.rentaltype}`;
+        maxpersons.textContent = `Max Persons: ${price.maxpersons}`;
+        reservation.textContent = `Reservations - Half Day: ${price.reservation.halfday}, Full Day: ${price.reservation.fullday}`;
+        walkin.textContent = `Walk-In - Half Day: ${price.walkin.halfday}, Full Day: ${price.walkin.fullday}`;
 
-        image.setAttribute('src', pricing.image);
-        image.setAttribute('alt', `Vehicle Type ${pricing.rentaltype}`);
+        image.setAttribute('src', price.image);
+        image.setAttribute('alt', `Vehicle Type ${price.rentaltype}`);
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '340');
         image.setAttribute('height', '440');
