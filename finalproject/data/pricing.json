@@ -3,16 +3,16 @@
         {
             "rentaltype" : "Honda Metro Scooter",
             "maxpersons" : "1",
-            "reservation" : [
+            "reservation" : 
                 {
                     "halfday" : "$20",
                     "fullday" : "$30"
-                }],
-            "walkin" : [
+                },
+            "walkin" : 
                 {
                     "halfday" : "$25",
                     "fullday" : "$35"
-                }],
+                },
             "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/scooter1.webp"
 
         },
