@@ -1,11 +1,10 @@
-const url = 'https://github.com/CJLynch01/wdd230/blob/main/finalproject/data/pricing.json';
+const urlgit = 'https://cjlynch01.github.io/wdd230/finalproject/data/pricing.json';
 const cards = document.querySelector('#cards');
 
 async function getPricingData() {
-    const response = await fetch(url);
-    const data = await response.json();
-    //console.table(data.prophets);
-    displayPricing(data.pricing);
+    const response = await fetch(urlgit);
+    const data2 = await response.json();
+    displayPricing(data2.pricing);
 }
 
 getPricingData();
@@ -34,7 +33,7 @@ const displayPricing = (pricing) => {
         card.appendChild(maxpersons);
         card.appendChild(reservation);
         card.appendChild(walkin);
-        card.appendChild(portrait);
+        card.appendChild(image);
   
         cards.appendChild(card);
     });
