@@ -19,80 +19,80 @@
         {
             "rentaltype" : "Honda Dio Scooter",
             "maxpersons" : "2",
-            "reservation" : [
+            "reservation" : 
                 {
                     "halfday" : "$30",
                     "fullday" : "$40"
-                }],
-            "walkin" : [
+                },
+            "walkin" : 
                 {
                     "halfday" : "$35",
                     "fullday" : "$45"
-                }],
+                },
             "image" : "#"
 
         },
         {
             "rentaltype" : "Honda PCX150 Scooter",
             "maxpersons" : "2",
-            "reservation" : [
+            "reservation" : 
                 {
                     "halfday" : "$40",
                     "fullday" : "$50"
-                }],
-            "walkin" : [
+                },
+            "walkin" : 
                 {
                     "halfday" : "$45",
                     "fullday" : "$55"
-                }],
+                },
             "image" : "#"
 
         },
         {
             "rentaltype" : "Honda Pioneer ATV",
             "maxpersons" : "4",
-            "reservation" : [
+            "reservation" : 
                 {
                     "halfday" : "$50",
                     "fullday" : "$70"
-                }],
-            "walkin" : [
+                },
+            "walkin" : 
                 {
                     "halfday" : "$60",
                     "fullday" : "$80"
-                }],
+                },
             "image" : "#"
 
         },
         {
             "rentaltype" : "Jeep Wrangler - 4 door with a/c",
             "maxpersons" : "5",
-            "reservation" : [
+            "reservation" : 
                 {
                     "halfday" : "$70",
                     "fullday" : "$100"
-                }],
-            "walkin" : [
+                },
+            "walkin" : 
                 {
                     "halfday" : "$85",
                     "fullday" : "$125"
-                }],
+                },
             "image" : "#"
 
         },
         {
             "rentaltype" : "Jeep Wrangler - 2 door",
             "maxpersons" : "4",
-            "reservation" : [
+            "reservation" : 
                 {
                     "halfday" : "$60",
                     "fullday" : "$85"
-                }],
-            "walkin" : [
+                },
+            "walkin" : 
                 {
                     "halfday" : "$70",
                     "fullday" : "$90"
-                }],
+                },
             "image" : "#"
 
         }

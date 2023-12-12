@@ -324,6 +324,7 @@ footer {
 	margin: 1rem;
 	position: relative;
 	text-align: center;
+	
 }
 
 .rentals h2 {
@@ -373,8 +374,8 @@ footer {
     box-shadow: 0 0 30px black;
     height: 200px;
     border: 1px solid #333;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .rentals li > img {
