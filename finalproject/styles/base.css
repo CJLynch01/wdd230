@@ -324,11 +324,11 @@ footer {
 	margin: 1rem;
 	position: relative;
 	text-align: center;
-	
+	align-items: center;
 }
 
 .rentals h2 {
-    color: navy;
+    color: var(--secondary-color);
     margin: 0 0 1rem 0;
     margin-top: 1rem;
 }
@@ -353,34 +353,28 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 0;
+	justify-content: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .rentals section {
     margin: 0.25rem;
     padding: 0.35rem;
-    background-color: rgb(135, 135, 197);
-    border: 1px solid rgb(78, 78, 196);
+    background-color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
     width: 350px;
 
 }
 
-.rentals section > p {
-  min-height: 60px;
-}
-
 .rentals img {
     width: auto;
-    max-width: 325px;
-    box-shadow: 0 0 30px black;
+    /* max-width: 325px; */
+    box-shadow: 0 0 30px var(--accent-color);
     height: 200px;
     border: 1px solid #333;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.rentals li > img {
-    width: auto;
-    height: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 }
