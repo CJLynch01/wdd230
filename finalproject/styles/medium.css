@@ -46,6 +46,30 @@
             height: auto;
         }
         
+        /* banner */
+        #banner-container {
+	        position: fixed;
+	        top: 50%;
+	        left: 50%;
+	        transform: translate(-50%, -50%);
+	        z-index: 1;
+	        display: flex;
+	        width: 60%;
+	        height: 15%;
+	        background: var(--primary-color);
+	        color: var(--accent-color);
+	        border: var(--accent-color2) 10px solid;
+  
+        }
+
+        #close{
+	        display: flex;
+	        font-family: var(--heading-font);
+	        position: absolute;
+	        top: .5rem;
+	        right: .5rem;
+        }
+
         /* Hamburger Menu */
         
         #menu {
@@ -244,6 +268,30 @@
             text-align: center;
         }
         
+        .reservationsnow {
+            text-align: center;
+            background-color: var(--accent-color2);
+            color: var(--accent-color);
+            border-radius: 30%;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 1rem;
+            padding-bottom: 1rem ;
+            margin-bottom: 1rem;
+        }
+        
+        .reservationsnow a {
+            padding: 5px;
+            text-align: center;
+            color: var(--white-);
+        }
+        
+        .reservationsnow a:hover {
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+
         /*   Footer    */
         
         footer {

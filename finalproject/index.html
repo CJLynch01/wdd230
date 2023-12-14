@@ -49,6 +49,13 @@
                 </picture>
             </div>
 
+            <div id="banner-container">
+                <button title="close" id="close">❌</button>
+                <div class="banner">
+                  <h2>High for today in Cozumel, Mexico is <span id="high"></span></h2>
+                </div>
+            </div>
+
             <div class="welcome">
                 <h2 id="welcome">Welcome to Cozumel, Mexico!</h2>
             </div>
@@ -86,14 +93,15 @@
                         Have enough room to pack up everything you need, including food.
                     </p>
                 </div>
-
-
             </div>
+
+            <div class="reservationsnow"><p><a href ="reservations.html">Don't Wait,<br>Make Reservations Now!</a></p></div>
 
             <div class="weather">
                 <h2 class="weathertitle">Forecast for Cozumel!</h2>
                 <div class="weather1">
                     <p class="weathertext1">Today<br><span id="current-temp"></span></p>
+                        <span id="current-hum"></span>
                         <figure>
                             <div class="weatherpicture">
                             <img id="weather-icon1" src="" alt="weather icon">
@@ -103,6 +111,7 @@
                 </div>
                 <div class="weather2">
                     <p class="weathertext2">Tomorrow<br><span id="tomorrow-temp"></span></p>
+                        <span id="tomorrow-hum"></span>
                         <figure>
                             <div class="weatherpicture">
                             <img id="weather-icon2" src="" alt="weather icon">
@@ -112,7 +121,8 @@
                 </div>
             
                 <div class="weather3">
-                    <p class="weathertext3">Day after<br><span id="dayafter-temp"></span></p>
+                    <p class="weathertext3">Day After<br><span id="dayafter-temp"></span></p>
+                        <span id="dayafter-hum"></span>
                         <figure>
                             <div class="weatherpicture">
                             <img id="weather-icon3" src="" alt="weather icon">
@@ -150,6 +160,7 @@
                 <span id="date"></span>
             </p>
         </footer>
+        <script src="scripts/banner.js"></script>
         <script src="scripts/weather.js"></script>
         <script src="scripts/modification.js"></script>
         <script src="scripts/hamburger.js"></script>

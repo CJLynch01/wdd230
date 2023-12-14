@@ -9,6 +9,10 @@ const weatherIcon3 = document.querySelector('#weather-icon3');
 const captionDesc1 = document.querySelector('#caption1');
 const captionDesc2 = document.querySelector('#caption2');
 const captionDesc3 = document.querySelector('#caption3');
+const currentHumid = document.querySelector('#current-hum');
+const tomorrowHumid = document.querySelector('#tomorrow-hum');
+const dayafterHumid = document.querySelector('#dayafter-hum');
+const highToday = document.querySelector('#high');
 
 const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=20.52&lon=-86.93&appid=d8a9e71401b6b1b5681eae6b4172a2d7&units=imperial';
 
@@ -34,6 +38,13 @@ function displayResults(data) {
     currentTemp.innerHTML = `${data.list[0].main.temp}&deg;F`;
     tomorrowTemp.innerHTML = `${data.list[1].main.temp}&deg;F`;
     dayafterTemp.innerHTML = `${data.list[2].main.temp}&deg;F`;
+
+    currentHumid.innerHTML = `${data.list[0].main.humidity}% Humidity`;
+    tomorrowHumid.innerHTML = `${data.list[1].main.humidity}% Humidity`;
+    dayafterHumid.innerHTML = `${data.list[2].main.humidity}% Humidity`;
+
+    highToday.innerHTML = `${data.list[0].main.temp_max}&deg;F`;
+
 
     const iconsrc1 = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
     let desc1 = data.list[0].weather[0].description;
