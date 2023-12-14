@@ -13,7 +13,7 @@
                     "halfday" : "$25",
                     "fullday" : "$35"
                 },
-            "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/scooter1.webp"
+            "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/metropolitan.webp"
 
         },
         {
@@ -29,7 +29,7 @@
                     "halfday" : "$35",
                     "fullday" : "$45"
                 },
-            "image" : "#"
+            "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/dio.webp"
 
         },
         {
@@ -45,7 +45,7 @@
                     "halfday" : "$45",
                     "fullday" : "$55"
                 },
-            "image" : "#"
+            "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/pcx.webp"
 
         },
         {
@@ -61,7 +61,7 @@
                     "halfday" : "$60",
                     "fullday" : "$80"
                 },
-            "image" : "#"
+            "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/hondaatv.webp"
 
         },
         {
@@ -77,7 +77,7 @@
                     "halfday" : "$85",
                     "fullday" : "$125"
                 },
-            "image" : "#"
+            "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/jeepw4dr.webp"
 
         },
         {
@@ -93,7 +93,7 @@
                     "halfday" : "$70",
                     "fullday" : "$90"
                 },
-            "image" : "#"
+            "image" : "https://cjlynch01.github.io/wdd230/finalproject/images/jeepw2dr.webp"
 
         }
     ]
