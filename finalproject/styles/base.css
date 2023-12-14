@@ -583,4 +583,32 @@ iframe {
 	text-align: center;
 }
 
+#enlargedferry1 {
+	width: 100%;
+	height: auto;
+}
+
+#enlargedferry2 {
+	width: 100%;
+	height: auto;
+}
+
+/* Attributions */
+
+.attributions a {
+	display: block;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.attributions a:hover {
+	color: var(--accent-color);
+	font-weight: 700;
+}
+
+.attribute {
+	
+}
+
 }
