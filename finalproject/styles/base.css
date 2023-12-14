@@ -41,6 +41,11 @@
     color: var(--secondary-color);
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 /* Hamburger Menu */
 
 #menu {
@@ -349,10 +354,6 @@ footer {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-#ra li {
-	list-style-type: circle;
-}
-
 #cards {
     display: flex;
     flex-wrap: wrap;
@@ -374,7 +375,7 @@ footer {
 
 .rentals img {
     width: auto;
-    /* max-width: 325px; */
+    max-width: 325px;
     box-shadow: 0 0 30px var(--accent-color);
     height: 200px;
     border: 1px solid #333;
@@ -406,6 +407,10 @@ tbody {
 .mainjoin {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+#ra li {
+	list-style-type: circle;
 }
 
 .join {
