@@ -504,4 +504,21 @@ textarea {
     text-decoration: underline;
 }
 
+/* Contact Us Page */
+
+#contactp {
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+#contactinfo1, #contactinfo2, #contactinfo3 {
+	text-align: center;
+	font-weight: bolder;
+	margin: 0;
+}
+
+#contactusproblem {
+	text-align: center;
+}
+
 }
