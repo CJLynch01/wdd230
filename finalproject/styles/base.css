@@ -374,11 +374,8 @@ footer {
 }
 
 .rentals img {
-    width: auto;
-    max-width: 325px;
-    box-shadow: 0 0 30px var(--accent-color);
-    height: 200px;
-    border: 1px solid #333;
+    height: 100px;
+	width: 150px;
     margin-left: 3rem;
     margin-right: 3rem;
 }
@@ -392,14 +389,18 @@ footer {
 
 table {
 	text-align: center;
-	padding-bottom: 2rem;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: small;
+	border-collapse: collapse;
 }
 
 tbody {
 	background-color: var(--accent-color2);
 	color: var(--accent-color);
+}
+
+.rentalsfooter {
+	margin-top: 2rem;
 }
 
 /* join.html page */
